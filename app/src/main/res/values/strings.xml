@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Ternaku</string>
+    <string name="app_name">TernaKu</string>
+    <string name="nama_aplikasi">TernaKu</string>
+    <string name="text_deskripsi_aplikasi">Aplikasi kelola ternak khusus buat kamu</string>
 </resources>
