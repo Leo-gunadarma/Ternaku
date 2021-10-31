@@ -28,19 +28,19 @@ public class MainActivity extends AppCompatActivity {
         kelolaKandang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                menuKelolaHewan();
+                menuKelolaKandang();
             }
         });
         kelolaObat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                menuKelolaHewan();
+                menuKelolaObat();
             }
         });
         pengaturanProfil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                menuKelolaHewan();
+                menuPengaturanProfil();
             }
         });
     }
