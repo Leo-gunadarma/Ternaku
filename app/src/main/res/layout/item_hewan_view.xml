@@ -14,7 +14,8 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/border_kotak">
+            android:background="@drawable/border_kotak"
+            android:padding="1dp">
 
             <ImageView
                 android:id="@+id/imageView3"
