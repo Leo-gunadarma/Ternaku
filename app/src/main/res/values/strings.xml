@@ -2,4 +2,12 @@
     <string name="app_name">TernaKu</string>
     <string name="nama_aplikasi">TernaKu</string>
     <string name="text_deskripsi_aplikasi">Aplikasi kelola ternak khusus buat kamu</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email :</string>
+    <string name="password">Password :</string>
+    <string name="nama">Nama :</string>
+    <string name="hint_email">Masukan Email Anda</string>
+    <string name="hint_password">Masukan Password Anda</string>
+    <string name="hint_nama">Masukan Nama Anda</string>
 </resources>
