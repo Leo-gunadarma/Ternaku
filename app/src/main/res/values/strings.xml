@@ -21,6 +21,9 @@
     <string name="hint_jumlah_hewan">Contoh: 10</string>
     <string name="jadwal_makan">Jadwal Makan</string>
     <string name="simpan">Simpan</string>
+    <string name="menu_kelola_kandang">Kelola Kandang</string>
+    <string name="menu_kelola_obat">Kelola Obat-obatan</string>
+    <string name="menu_pengaturan_profil">Pengaturan profil</string>
     <string-array name="jenis_hewan">
         <item>Jenis Hewan</item>
         <item>Ovipar (Bertelur)</item>
