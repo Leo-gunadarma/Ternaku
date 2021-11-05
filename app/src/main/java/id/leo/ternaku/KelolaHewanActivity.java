@@ -14,7 +14,7 @@ public class KelolaHewanActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kelola_hewan);
-        addButton = findViewById(R.id.addButton);
+        addButton = findViewById(R.id.addButtonHewan);
         addButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

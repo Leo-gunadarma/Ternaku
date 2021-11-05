@@ -4,16 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/home"
-    tools:context=".KelolaHewanActivity">
-
+    tools:context=".KelolaObatActivity"
+    android:background="@drawable/home">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerViewKelolaHewan"
+        android:id="@+id/recyclerViewKelolaObat"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/addButtonHewan"
+        android:id="@+id/addButtonObat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|right"
@@ -22,4 +21,6 @@
         android:contentDescription="add"
         android:src="@drawable/ic_add_button"
         app:layout_anchorGravity="bottom|right|end" />
+
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

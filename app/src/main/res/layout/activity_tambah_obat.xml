@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/home"
-    tools:context=".TambahHewanActivity">
-
+    tools:context=".TambahObatActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,7 +26,7 @@
             android:layout_height="40dp"
             android:fontFamily="@font/aclonica"
             android:gravity="center"
-            android:text="@string/judul_form_tambahkan_hewan"
+            android:text="Form Tambahkan Obat"
             android:textColor="@color/tema_aplikasi"
             android:textSize="20sp" />
 
@@ -37,20 +36,20 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textViewNamaHewan"
+                android:id="@+id/textViewNamaObat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/nama_hewan"
+                android:text="@string/nama_obat"
                 android:fontFamily="@font/amaranth"
                 android:paddingStart="10dp"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
             <EditText
-                android:id="@+id/editTextNamaHewan"
+                android:id="@+id/editTextNamaObat"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:hint="@string/hint_nama_hewan"
+                android:hint="Contoh: Vita Plex"
                 android:background="@drawable/input_box"
                 android:ems="10"
                 android:inputType="textPersonName"
@@ -64,76 +63,17 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textViewRasHewan"
+                android:id="@+id/textViewJumlahObat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/amaranth"
                 android:paddingStart="10dp"
-                android:text="@string/ras_hewan"
+                android:text="Jumlah Obat: "
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
             <EditText
-                android:id="@+id/editTextRasHewan"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:background="@drawable/input_box"
-                android:ems="10"
-                android:hint="@string/hint_ras_hewan"
-                android:inputType="textPersonName"
-                android:paddingStart="10dp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/textViewJenisHewan"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/amaranth"
-                android:paddingStart="10dp"
-                android:text="@string/jenis_hewan"
-                android:textColor="@color/black"
-                android:textSize="16sp" />
-
-            <FrameLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_gravity="center_horizontal"
-                android:background="@drawable/input_box">
-
-                <Spinner
-                    android:id="@+id/spinnerJenisHewan"
-                    android:layout_width="285dp"
-                    android:layout_height="61dp"
-                    android:backgroundTintMode="add"
-                    android:entries="@array/jenis_hewan" />
-            </FrameLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/textViewJumlahHewan"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/amaranth"
-                android:paddingStart="10dp"
-                android:text="@string/jumlah_hewan"
-                android:textColor="@color/black"
-                android:textSize="16sp" />
-
-            <EditText
-                android:id="@+id/editTextJumlahHewan"
+                android:id="@+id/editTextJumlahObat"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:background="@drawable/input_box"
@@ -147,45 +87,35 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView8"
+                android:id="@+id/textViewDeskripsiObat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/amaranth"
                 android:paddingStart="10dp"
-                android:text="@string/jadwal_makan"
+                android:text="@string/deskripsi_obat"
                 android:textColor="@color/black"
-                android:textSize="16sp" /> />
+                android:textSize="16sp" />
 
-            <RadioGroup
-                android:id="@+id/radioGroupJadwalMakan"
-                android:layout_width="258dp"
-                android:layout_height="163dp"
+            <EditText
+                android:id="@+id/editTextDeskripsiObat"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
                 android:background="@drawable/input_box"
-                android:layout_gravity="center_horizontal">
-
-                <RadioButton
-                    android:id="@+id/radioButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Pagi - Siang" />
-
-                <RadioButton
-                    android:id="@+id/radioButton2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Siang - Sore" />
-
-                <RadioButton
-                    android:id="@+id/radioButton3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Pagi - Sore" />
-            </RadioGroup>
+                android:ems="10"
+                android:hint="@string/hint_deskripsi_obat"
+                android:inputType="textMultiLine"
+                android:paddingStart="10dp" />
         </LinearLayout>
+
+
+        <CheckBox
+            android:id="@+id/checkBoxPeraturan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/peraturan_obat" />
 
         <Button
             android:id="@+id/buttonSimpan"
@@ -196,4 +126,5 @@
             app:icon="@drawable/ic_simpan"
             app:iconGravity="textEnd" />
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/home"
-    tools:context=".KelolaHewanActivity">
+    tools:context=".KelolaKandangActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerViewKelolaHewan"
+        android:id="@+id/recyclerViewKelolaKandang"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/addButtonHewan"
+        android:id="@+id/addButtonKandang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|right"
@@ -22,4 +22,5 @@
         android:contentDescription="add"
         android:src="@drawable/ic_add_button"
         app:layout_anchorGravity="bottom|right|end" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

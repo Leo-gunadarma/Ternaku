@@ -24,6 +24,18 @@
     <string name="menu_kelola_kandang">Kelola Kandang</string>
     <string name="menu_kelola_obat">Kelola Obat-obatan</string>
     <string name="menu_pengaturan_profil">Pengaturan profil</string>
+    <string name="judul_form_tambahkan_kandang">Form Tambahkan Kandang</string>
+    <string name="nama_kandang">Nama Kandang:</string>
+    <string name="lokasi_kandang">Lokasi Kandang:</string>
+    <string name="luas_kandang">Luas Kandang: 50 Meter Persegi</string>
+    <string name="kapasitas_hewan">Kapasitas Hewan (Satuan Per-hewan):</string>
+    <string name="hint_nama_kandang">Contoh: Kandang Ayam</string>
+    <string name="hint_lokasi_kandang">Contoh: Sebelah Barat Kandang</string>
+    <string name="hint_kapasitas_hewan">Contoh: 25</string>
+    <string name="hint_deskripsi_obat">Contoh: Vitamin B kompleks untuk unggas yaitu mencegah dan mengobati penyakit yang disebabkankekurangan vitamin B</string>
+    <string name="deskripsi_obat">Deskripsi Obat:</string>
+    <string name="peraturan_obat">Penggunaan Obat Sudah Disetujui Sesuai Peraturan Yang Dibuat Oleh Pemerintah</string>
+    <string name="nama_obat">Nama Obat:</string>
     <string-array name="jenis_hewan">
         <item>Jenis Hewan</item>
         <item>Ovipar (Bertelur)</item>
