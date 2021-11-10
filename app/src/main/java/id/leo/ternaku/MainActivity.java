@@ -49,12 +49,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void menuKelolaKandang(){
-        Toast toast = Toast.makeText(this, "Menu dalam pembuatan", Toast.LENGTH_LONG);
-        toast.show();
+        Intent intent = new Intent(MainActivity.this, KelolaKandangActivity.class);
+        startActivity(intent);
     }
     public void menuKelolaObat(){
-        Toast toast = Toast.makeText(this, "Menu dalam pembuatan", Toast.LENGTH_LONG);
-        toast.show();
+        Intent intent = new Intent(MainActivity.this, KelolaObatActivity.class);
+        startActivity(intent);
     }
     public void menuPengaturanProfil(){
         Toast toast = Toast.makeText(this, "Menu dalam pembuatan", Toast.LENGTH_LONG);
